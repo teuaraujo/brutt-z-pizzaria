@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div.cabecalho{
+    background-color: rgba(247, 139, 17, 0.945);
+    display: flex;
+    height: 120px;
+    align-items: center;
+    gap: 10px;
+    background-image: url(assets/pizza.png);
+    color: rgba(0, 128, 0, 0.733);
+    
+}
+header div.cabecalho h1{
+    font-size: 58px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+header div.cabecalho img{
+    height: 80px;
+    margin-left: 10px;
+    opacity: 1%;
+}
+footer div.rodape{
+    background-color: rgba(247, 139, 17, 0.945);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div.rodape ul{
+    list-style: none;
+}
+footer div.rodape ul li a{
+    color: black;
+}
+
+main div.titulo h2{
+    font-size: 38px;
+}
+main div.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(247, 139, 17, 0.945);
+}
+main div.cardapio{
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+main  div.cardapio p{
+    color: rgba(247, 139, 17, 0.945);
+}
+
